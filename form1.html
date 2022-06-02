@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="librerias/css/bootstrap.min.css">
+    <link rel="stylesheet" href="librerias/estilos.css">
+    <link rel="stylesheet" href="librerias/js/bootstrap.bundle.min.js">
+    <style>
+        .error{
+            color: red;
+            font-style: italic;
+        }
+    </style>
+    <title>Registrarse</title>
+</head>
+<body>
+    <body background="imagenes/foto1.jpg"></body>
+    
+    <div class="container card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4">
+    <h2>Registro de Usuario</h2>
+    <hr>
+    <form class="row g-3 m-3" id="fm1" method="post" action="form2.html">
+        <div class="col-10">
+            <input type="text" class="form-control a" name="nombre" placeholder="Ingrese su Nombre">
+        </div>
+
+        <div class="col-10">
+            <input type="text" class="form-control a" name="apellido" placeholder="Ingrese su Apellido">
+        </div>
+
+        <div class="col-10">
+            <input type="email" class="form-control a" name="email" placeholder="Ingrese su correo">
+        </div>
+
+        <div class="col-10">
+            <input type="password" class="form-control a" name="contraseña" placeholder="Contraseña a usar">
+        </div>
+
+        <div class="col-10">
+            <input type="text" class="form-control a" name="user" placeholder="Diga su Usuario">
+        </div>
+
+        <div class="col-12">
+        <button type="submit" class="btn btn-primary col-3" name="boton">Enviar</button>
+        </div>
+
+    </form>
+    </div>
+
+    <script src="librerias/jquery-3.6.0.min.js"></script>
+    <script src="librerias/jquery.validate.min.js"></script>
+    <script src="librerias/formulario_jquery.js"></script> 
+    <script src="librerias/js/bootstrap.js"></script>
+</body>
+</html>

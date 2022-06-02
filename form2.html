@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="librerias/css/bootstrap.min.css">
+    <link rel="stylesheet" href="librerias/js/bootstrap.min.js">
+    <link rel="stylesheet" href="librerias/estilos.css">
+    <style>
+        .error{
+            color: red;
+            font-style: italic;
+        }
+    </style>
+    <title>Comprar</title>
+</head>
+<body background="imagenes/foto2.jpg"></body>
+<body>
+    <div class="container card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4">
+        <h2>Registro de Compra</h2>
+        <hr>
+        <form class="row g-3 m-3" id="fm2" method="post" action="form1.html">
+            <div class="col-6">
+                <input type="text" class="form-control" name="user" placeholder="Ingrese su Usuario">
+            </div>
+    
+            <div class="col-6">
+                <input type="email" class="form-control" name="correo" placeholder="Ingrese su correo">
+            </div>
+
+            <div class="col-6">
+                <input type="text" class="form-control" name="pais" placeholder=" Diga su Pais">
+            </div>
+    
+            <div class="col-6">
+                <input type="text" class="form-control" name="codigo" placeholder="Codigo Postal">
+            </div>
+
+            <div class="col-12">
+                <textarea name="direccion" class="form-control" name="direccion" cols="30" rows="3" placeholder="Diga su direccion"></textarea>
+            </div>
+    
+            <div class="col-12">
+            <button type="submit" class="btn btn-primary col-3" name="boton">Enviar</button>
+            </div>
+    
+        </form>
+        </div>
+        <script src="librerias/jquery-3.6.0.min.js"></script>
+        <script src="librerias/jquery.validate.min.js"></script>
+        <script src="librerias/formulario_jquery.js"></script>
+        <script src="librerias/js/bootstrap.js"></script>
+</body>
+</html>
